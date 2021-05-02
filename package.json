@@ -1,0 +1,11 @@
+{
+  "name": "js-shell",
+  "version": "0.0.1",
+  "type": "module",
+  "bin": {
+    "get": "get.js"
+  },
+  "dependencies": {
+    "node-fetch": "^2.6.1"
+  }
+}
