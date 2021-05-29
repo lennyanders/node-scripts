@@ -3,9 +3,12 @@
   "version": "0.0.1",
   "type": "module",
   "bin": {
-    "get": "get.js"
+    "get": "get.js",
+    "yt-dl": "youtube-dl.js"
   },
   "dependencies": {
-    "node-fetch": "^2.6.1"
+    "ffmpeg-static": "^4.3.0",
+    "node-fetch": "^2.6.1",
+    "youtube-dl-exec": "^1.2.3"
   }
 }
